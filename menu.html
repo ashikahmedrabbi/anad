@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Menu</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <section class="bg-base-300">
+      <div class="navbar container mx-auto px-10">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="reservation.html">Reservation</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">FoodHub</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a href="index.html" class="btn">Login</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar end -->
+
+    <!-- menu stats -->
+    <main class="container mx-auto my-8">
+      <section>
+        <h1 class="text-4xl font-bold text-center">Menu</h1>
+        <div class="mt-8">
+          <h2 class="text-2xl font-semibold">Appetizers</h2>
+          <ul class="mt-4">
+            <li class="flex justify-between p-2 border-b">
+              <span>Bruschetta</span>
+              <span>$8</span>
+            </li>
+            <li class="flex justify-between p-2 border-b">
+              <span>Stuffed Mushrooms</span>
+              <span>$10</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <h2 class="text-2xl font-semibold">Main Courses</h2>
+          <ul class="mt-4">
+            <li class="flex justify-between p-2 border-b">
+              <span>Grilled Salmon</span>
+              <span>$25</span>
+            </li>
+            <li class="flex justify-between p-2 border-b">
+              <span>Steak Frites</span>
+              <span>$30</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <h2 class="text-2xl font-semibold">Desserts</h2>
+          <ul class="mt-4">
+            <li class="flex justify-between p-2 border-b">
+              <span>Cheesecake</span>
+              <span>$8</span>
+            </li>
+            <li class="flex justify-between p-2 border-b">
+              <span>Tiramisu</span>
+              <span>$9</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-8">
+          <h2 class="text-2xl font-semibold">Beverages</h2>
+          <ul class="mt-4">
+            <li class="flex justify-between p-2 border-b">
+              <span>Coffee</span>
+              <span>$3</span>
+            </li>
+            <li class="flex justify-between p-2 border-b">
+              <span>Wine</span>
+              <span>$7</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- menu ends -->
+  </body>
+</html>

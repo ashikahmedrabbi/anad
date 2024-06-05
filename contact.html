@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact us</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <section class="bg-[url('images/bg.png')] bgimages">
+      <div class="navbar container mx-auto px-10">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html">Home</a></li>
+  
+              <li><a href="menu.html">About Us</a></li>
+              <li><a href="reservation.html">Features</a></li>
+              <li><a href="reservation.html">Pricing</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <div class=" ">
+              <img class="w-24" src="images/logo.png" alt="Tailwind-CSS-Avatar-component" />
+            </div>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="index.html">Home</a></li>
+  
+            <li><a href="menu.html">About Us</a></li>
+            <li><a href="reservation.html">Features</a></li>
+            <li><a href="reservation.html">Pricing</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a href="login.html" class="btn bg-[#f1a879] text-white ">Login</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar end -->
+
+
+    <main class="container mx-auto my-8">
+      <section class="max-w-lg mx-auto">
+        <h1 class="text-4xl font-bold text-center">Contact Us</h1>
+        <div class="mt-8 space-y-4">
+          <p><strong>Address:</strong> 1234 Main St, Anytown, USA</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Email:</strong> contact@anad.com</p>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509428!2d144.95373531567833!3d-37.81720974202167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f3b8e6f1%3A0x3bbd74fdfd83b1d5!2sRestaurant!5e0!3m2!1sen!2sus!4v1601256584163!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+        <form class="mt-8 space-y-4">
+          <div>
+            <label for="contact-name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" id="contact-name" name="contact-name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required>
+          </div>
+          <div>
+            <label for="contact-email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" id="contact-email" name="contact-email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required>
+          </div>
+          <div>
+            <label for="contact-message" class="block text-sm font-medium text-gray-700">Message</label>
+            <textarea id="contact-message" name="contact-message" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+  
+
+  </body>
+</html>
